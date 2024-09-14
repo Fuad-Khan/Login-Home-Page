@@ -1,3 +1,4 @@
+/* General styles for both pages */
 body {
     background-color: #181818;
     font-family: Arial, sans-serif;
@@ -8,18 +9,21 @@ body {
     margin: 0;
   }
   
-  .login-container {
+  h2, h1 {
+    color: #ff1493;
+  }
+  
+  p {
+    color: #f1f1f1;
+  }
+  
+  /* Login page styles */
+  .login-container, .home-container {
     background-color: #1e1e1e;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     text-align: center;
-    color: #f1f1f1;
-  }
-  
-  h2 {
-    color: #ff1493;
-    margin-bottom: 20px;
   }
   
   .input-group {
